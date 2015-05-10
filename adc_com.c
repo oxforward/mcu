@@ -23,11 +23,6 @@ void delay_on(uint delay_time)
         for(j = 110; j > 0; j--);
 }
 
-void github()
-{
-	int git = 0;
-}
-
 void init()
 {
     TMOD = 0x21;
